@@ -7,7 +7,7 @@ namespace AIChatbot
     public class ApiService
     {
         private readonly HttpClient _httpClient;
-        private const string API_KEY = "YOUR_GROQ_API_KEY_HERE"; // Paste your Groq key here
+        private const string API_KEY = "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"; // Paste your Groq key here
         private const string API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
         public ApiService()
